@@ -1,0 +1,56 @@
+[33mcommit 4ba8ff069713ea303f36278df1af745e40a1c687[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 7f8c5e0 2ed8e03
+Author: Abodh Shah <82598946+ABODHKUMAR@users.noreply.github.com>
+Date:   Tue Jan 16 11:53:38 2024 +0530
+
+    Merge pull request #3 from ABODHKUMAR/login_route_web_token
+    
+    Add Webtoken Functionality and Create Login Route For User
+
+[33mcommit 2ed8e039883c00fa79eba6d5b1902ff018d82ced[m[33m ([m[1;31morigin/login_route_web_token[m[33m, [m[1;32mlogin_route_web_token[m[33m)[m
+Author: abodh5921 <abodh5921@gmail.com>
+Date:   Tue Jan 16 11:50:08 2024 +0530
+
+    Add webtoken functionality and Create route for user
+
+[33mcommit 7f8c5e03531b85e7144fee5746c26fa2dcd27a47[m
+Merge: fc1f409 34daca6
+Author: Abodh Shah <82598946+ABODHKUMAR@users.noreply.github.com>
+Date:   Tue Jan 16 11:00:06 2024 +0530
+
+    Merge pull request #2 from ABODHKUMAR/user_model
+    
+    User Model and Register API Works
+
+[33mcommit 34daca6a64184a232d1173eefe51d8b677063117[m[33m ([m[1;31morigin/user_model[m[33m, [m[1;32muser_model[m[33m)[m
+Author: abodh5921 <abodh5921@gmail.com>
+Date:   Tue Jan 16 10:56:24 2024 +0530
+
+    User Model and Register Api Works
+
+[33mcommit fc1f4090a9b8344b0b84e92344a754b976133f55[m
+Merge: ecb2a03 36a8af4
+Author: Abodh Shah <82598946+ABODHKUMAR@users.noreply.github.com>
+Date:   Thu Jan 11 17:44:01 2024 +0530
+
+    Merge pull request #1 from ABODHKUMAR/dotenv-setup
+    
+    Dotenv setup and MongoDb connection
+
+[33mcommit 36a8af4f3cd811e4f7e062d887415a3236bd462b[m[33m ([m[1;31morigin/dotenv-setup[m[33m, [m[1;32mdotenv-setup[m[33m)[m
+Author: Abodh <abodh5921@gmail.com>
+Date:   Thu Jan 11 17:30:31 2024 +0530
+
+    Connected To MongoCompass
+
+[33mcommit 559f4311f2b55313bcd810cd76bdc172a3bc96a4[m
+Author: Abodh <abodh5921@gmail.com>
+Date:   Thu Jan 11 15:22:53 2024 +0530
+
+    Server Works Fine and Add env File
+
+[33mcommit ecb2a03d950c307c2f4f82986a1d367221204477[m
+Author: Abodh <abodh5921@gmail.com>
+Date:   Thu Jan 11 11:11:50 2024 +0530
+
+    Serve Works Using Express
