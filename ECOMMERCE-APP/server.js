@@ -4,6 +4,7 @@ import dotenv from 'dotenv'
 import morgan from "morgan";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoute.js"
+import catagoryRoutes from './routes/categoryRoutes.js'
 //Configuration env
 dotenv.config();
 
@@ -20,6 +21,7 @@ app.use(morgan('dev'));  // Used Show Api Call in Terminal.
 
 //Routes
 app.use("/api/v1/auth",authRoutes);
+app.use("/api/v1/category",catagoryRoutes);
 //rest api
 app.get('/',(req,res)=>{
     res.send("<h1>WelCome to ecommerce app</h1>");
