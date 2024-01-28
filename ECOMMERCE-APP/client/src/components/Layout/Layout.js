@@ -7,7 +7,7 @@ const Layout = ({children}) => {
   return (
     <div>
     <Header/>
-    <main style={{minHeight:"80vh"}}>{children}</main>
+    <main style={{minHeight:"69vh"}}>{children}</main>
     <Footer/>
     </div>
   )
