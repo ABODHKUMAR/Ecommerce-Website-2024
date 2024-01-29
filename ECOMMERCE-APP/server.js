@@ -5,6 +5,7 @@ import morgan from "morgan";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoute.js"
 import catagoryRoutes from './routes/categoryRoutes.js'
+import cors from 'cors';
 //Configuration env
 dotenv.config();
 
@@ -17,6 +18,7 @@ const app= express();
 //middlewares
 app.use(express.json()); // Used send JSON Data In Req, Send .
 app.use(morgan('dev'));  // Used Show Api Call in Terminal.
+app.use(cors());
 
 
 //Routes
