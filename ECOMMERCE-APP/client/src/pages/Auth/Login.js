@@ -3,10 +3,13 @@ import Layout from '../../components/Layout/Layout'
 import toast from 'react-hot-toast';
 import axios from "axios"
 import {useNavigate} from "react-router-dom";
+import { useAuth } from '../../context/auth';
 import "./../../styles/AuthStyles.css"
+import { use } from 'react';
 const Login = () => {
   const[email,setEmail]=useState("");
   const [password,setPassword] = useState("");
+  const [auth,setAuth]=useAuth();
  
   const navigate=useNavigate();
  
@@ -21,6 +24,12 @@ const Login = () => {
             if(res && res.data.success){
 
                 toast.success(res.data && res.data.message);
+                setAuth({
+                    ...auth,
+                    user:res.data.user,
+                    token: res.data.token
+                });
+                localStorage.setItem('auth',JSON.stringify(res.data));
                 navigate('/');
                 
             } else{
